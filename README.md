@@ -1,4 +1,5 @@
-Create a stopwatch using python
-A stopwatch is used to measure the time interval between two events usually in seconds to minutes. It has various usage like in sports or measuring the flow of heat, current etc in an industrial setup. Python can be used to creat a stopwatch by using its tkinter library.
-This library will have the GUI features to create a stopwatch showing the  Start, Stop and Reset  option. The key component of the program is using the lable.after()  module of tkinter.
-In the below program we use this method as out key component of the program and design a widget showing the GUI features in the stopwatch. 
+The Classic Tic-Tac-Toe Game in Python 
+First, let’s see how we are going to use a dictionary to create our game board. A dictionary is a primitive data type in python which stores data in “key: value” format. and thus, we’ll create a dictionary of length 9 and each key will represent a block in the board and its corresponding value will represent the move made by a player. and we’ll create a function printBoard() which we can use every time we want to print the updated board in the game. 
+The main function, we’ll first take the input from the player and check if the input is a valid move or not. If the block that player requests to move to is valid, we’ll fill that block else we’ll ask the user to choose another block. 
+To check the winning condition, we’ll check a total of 8 conditions and whichever player has made the last move, we’ll declare that player as a winner. And if no one wins, we’ll declare ‘tie’ 
+
